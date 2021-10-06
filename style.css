@@ -1,0 +1,119 @@
+#parent {
+        
+    display: grid;
+    grid-template-columns:  25% 25% 25% 25%;
+    column-gap: 10px;
+    row-gap: 10px;
+    background-color: whitesmoke;
+    border-radius: 3px;
+    padding: 10px;
+
+}
+body{
+    margin: 2%;
+}
+
+.child{
+    background-color: white;
+    height: 150px;
+    border-radius: 3px;
+
+
+}
+img{
+    text-align: center;
+    align-content: center;
+}
+
+.child1{
+    /* static is the default position and can not be changed by top, bottom left and right */
+    position: static;
+
+
+}
+.child2{
+    
+    position: static;
+
+
+}
+.child3{
+    
+    position: static;
+
+}
+.child4{
+
+    position: static;
+
+}
+.child5{
+    position: static;
+
+}
+.child6{
+    
+    position: static;
+
+}
+.child7{
+
+    position: static;
+
+}
+.child8{
+    position: static;
+
+}
+
+
+@media  (max-width: 768px) {
+    #parent {
+        
+        
+        grid-template-columns:  1fr 1fr 1fr ;
+
+
+    }
+
+
+}
+@media  (max-width: 576px) {
+    #parent {
+        grid-template-columns:  1fr 1fr ;
+
+
+    }
+    
+
+
+}
+/* @media  (max-width: 800px) and( min-width: 600px) {
+    #parent {
+        
+        
+        display: grid;
+        grid-template-columns:  1fr 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 10px;
+        background-color: whitesmoke;
+        border-radius: 3px;
+        padding: 10px;
+
+
+    }
+
+
+}
+@media  (max-width: 600px) {
+    #parent {
+        display: grid;
+        grid-template-columns:  1fr 1fr;
+        column-gap: 10px;
+        row-gap: 10px;
+        background-color: whitesmoke;
+        border-radius: 3px;
+        padding: 10px;
+
+
+    } */
