@@ -1,0 +1,64 @@
+
+#parent {
+    /* changes the display to grid */
+    display: grid;
+    /* set the amount of columns and the side of them */
+    grid-template-columns: 1fr 1fr 1fr ;
+    /* grid-template-rows: 50fr 50fr 50fr; */
+    /* set the gap size for columns and rows */
+    column-gap: 20px;
+    row-gap: 20px;
+    background-color:#cb997e;
+    padding: 10px;
+    margin: 50px;
+    
+}
+
+
+
+.child child1 {
+  float: center;
+margin: 66px;
+background-color: rgb(255, 255, 255);
+}
+h1{
+  text-align: center;
+background-color: rgb(255, 255, 255);
+}
+img{
+  margin-left: 70px;
+  width: 15rem;
+  height: 15rrem;
+  
+}
+.caption{
+ 
+  background-color: rgb(255, 255, 255);
+
+}
+*{
+    float: center;
+    background-color:#f8edeb;
+    
+
+}
+a{
+  margin: 150px;
+  background-color: rgb(255, 255, 255);
+bottom: 45px;
+}
+
+@media only screen and (max-width: 600px) {
+  #parent{
+   
+    grid-template-columns: 1fr ;
+  }
+ 
+  .child {
+    width: 100%;
+  }
+  
+  img{
+    width: 50%;
+  }
+}
