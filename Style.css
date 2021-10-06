@@ -1,0 +1,60 @@
+img{
+    block-size: 3cm;
+    /* i serch for the image center feauture and find the answer in HTML Online
+   url: https://html-online.com/articles/image-align-center/ */
+    display: block;
+    margin: 10px auto 20px;
+    
+}
+div.child{
+    block-size: 1.2cm 1.2cm;
+
+    background-color: white;
+    position: relative;
+   /* top: 40%;*/
+}
+
+div#parent{
+    block-size: 100%;
+    background-color: burlywood; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin: 1cm;
+    padding: 10px;
+}
+h4{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+/* mobile */
+@media screen and (max-width: 688px)  {
+    
+        div#parent{
+            block-size: 100%;
+            background-color: burlywood; 
+            display: grid;
+            grid-template-columns: 1fr;
+            column-gap: 10px;
+            row-gap: 10px;
+            margin: 1cm;
+            padding: 10px;
+        }
+    
+}
+/* tablets */
+@media screen and (max-width: 992px) and (min-width:689px) {
+    div#parent{
+        block-size:  100%;
+        background-color: burlywood; 
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 10px;
+        margin: 1cm;
+        padding: 10px;
+    }
+}
