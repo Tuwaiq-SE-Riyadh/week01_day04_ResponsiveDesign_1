@@ -13,4 +13,4 @@ requirements:
 
 ### Tablet Screen Output
 
-![output](images/Three.png)
+![output](images/three.png)
