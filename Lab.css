@@ -1,0 +1,39 @@
+#d0{
+    background-image: url(7.jpg);
+    display: grid;
+    column-gap: 15px;
+    padding: 3%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 15px;
+}
+.d1{
+background-color: white;
+padding: 7%;
+height: 280px;
+}
+img{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+p{
+    font-size: 10pt;
+    font-weight: bold;
+}
+a{
+    font-size: 8pt; 
+}
+
+
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+    #d0{
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+}
+
+
+  @media only screen and (max-width: 576px) {
+    #d0{
+        grid-template-columns: 1fr;
+    }
+  }
