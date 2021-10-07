@@ -1,0 +1,100 @@
+#parent {
+    /* uncomment when trying absolute position */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    
+}
+@media screen and (max-width:935px) {
+  #parent {
+    /* uncomment when trying absolute position */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    
+}
+}
+@media screen and (max-width:730px) {
+  #parent {
+    /* uncomment when trying absolute position */
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    
+}
+}
+@media screen and (max-width:530px) {
+  #parent {
+    /* uncomment when trying absolute position */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    
+}
+}
+@media screen and (orientation: landscape) {
+  #parent {
+    /* uncomment when trying absolute position */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    
+}
+}
+
+.child{
+    /* static is the default position and can not be changed by top, bottom left and right */
+   background-color: white;
+   height: 10rem;
+   border:1px solid #f0ba9e;
+   border-radius: 2px;
+}
+img{
+
+bottom: 20px;
+left:110px;
+width: 185px;
+height: 200px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 5rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #cb997e;
+    height: 5rem;
+  }
+  
+  li {
+    float: left;
+    height: 5rem;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    height: 5rem;
+  }
+  
+  li a:hover {
+    background-color: #ffe8d6;
+  }
+  .mainDiv{
+    background-image: url("2076086.webp");
+  }
+h1{
+  margin-left: 1rem;
+}
