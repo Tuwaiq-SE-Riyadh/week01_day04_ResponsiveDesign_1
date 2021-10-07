@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+
+  
+
+}
+#parent{
+    display: grid;
+    grid-template-columns: auto ;
+    grid-gap: 10px;
+    border-style:none;
+
+}
+img{
+    width: 40%;
+    height: 40%;
+}
+div {
+    padding: 10px;
+    border: 1px solid red;
+}
+.child{
+    padding: 30px;
+}
+
+/* -----------------------media----------------------- */
+
+
+@media only screen and (min-width: 550px) {
+
+    #parent{
+        grid-template-columns: auto auto auto;
+    }
+}
+@media only screen and (min-width: 700px) {
+
+    #parent{
+        grid-template-columns: auto auto auto auto;
+    }
+}
