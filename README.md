@@ -1,16 +1,3 @@
 # Week1_Day4_Responsive_Design
-
-## Modify the previous Grid task to make it responsive:
-
-requirements:
-
-- Add a media query for tablet screens that displays 3 coloumns.
-- Add a media query for mobile screens that displays all the cards vertically in in one column
-
-### Grid Task
-
-![task](images/four.png)
-
-### Tablet Screen Output
-
-![output](images/three.png)
+- Result : 
+- ![image](https://user-images.githubusercontent.com/72529306/136674907-b57d5ff0-e72b-4e17-8197-b6d7484d1851.png)
