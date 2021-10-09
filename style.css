@@ -1,0 +1,64 @@
+#parent {
+    /* changes the display to grid */
+    display: grid;
+    /* set the amount of columns and the side of them */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* set the gap size for columns and rows */
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+
+
+#parent {
+    background-color: black;
+    padding: 10px;
+    margin: 50px;
+}
+
+.child {
+    /* height: 150px; */
+    /* width: 100%; */
+}
+
+img{
+    height: 60px;
+    width: 80%;
+    margin-left: 25px;
+}
+h3{
+    margin: 5px;
+    margin-left: 10px;
+}
+.ImgDetails{
+    margin: 5px;
+    margin-left: 10px;
+
+}
+.ShopNow{
+    margin: 10px;
+}
+
+@media  (max-width: 1024px) {
+    #parent {
+        /* changes the display to grid */
+        display: grid;
+        /* set the amount of columns and the side of them */
+        grid-template-columns: 1fr 1fr 1fr;
+        /* set the gap size for columns and rows */
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+}
+
+@media  (max-width: 480px) {
+    #parent {
+        /* changes the display to grid */
+        display: grid;
+        /* set the amount of columns and the side of them */
+        grid-template-columns: 1fr ;
+        /* set the gap size for columns and rows */
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+}
