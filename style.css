@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+.container {
+    width: 90vw;
+    display: grid;
+    gap: 20px 20px;
+    margin: 30px;
+    grid-template-columns: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+
+    /* Desktop */
+    .container {
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:767px) {
+
+    /* tablet */
+    .container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.card>img {
+    margin: auto;
+    max-width: 100%;
+    display: block;
+    object-fit: contain;
+}
+
+.card>a {
+    text-decoration: none;
+}
