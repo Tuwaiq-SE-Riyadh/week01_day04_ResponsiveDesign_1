@@ -1,0 +1,40 @@
+.parent{
+    display: grid;
+    background-color: rgb(226, 230, 235);
+    padding: 20px;
+    margin: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* set the gap size for columns and rows */
+    column-gap: 5px;
+    row-gap: 10px;
+    height: 1500px
+
+    /* height: 920px; */
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+.child{
+    height: 550px;
+    padding: 10%;
+    background-color: white;
+}
+img {
+    height: 70%;
+    width: 90%;
+}
+.action{
+    color: blue;
+}
+
+@media only screen and (max-width: 768px)  {
+  .parent{
+    grid-template-columns: 1fr 1fr 1fr ;
+    height: 2000px
+  }
+}
+@media only screen and (max-width: 576px) {
+  .parent{
+    grid-template-columns: 1fr;
+    height: 5500px
+    }
+}
