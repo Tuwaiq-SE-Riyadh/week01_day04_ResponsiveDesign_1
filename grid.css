@@ -1,0 +1,58 @@
+body{
+    background-color:bisque;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    column-gap: 10px;
+    row-gap: 15px;
+    padding: 15px;   
+    margin: 30px;
+    
+    }
+    
+/*Add a media query for mobile screens that displays all the cards vertically in in one column*/
+
+    @media screen and (max-width: 576px) {
+        .grid-container {
+          width: 100%;
+          grid-template-columns: 1fr ;
+          row-gap: 15px;
+    padding: 15px;
+
+        }
+      }
+      @media only screen and (min-width: 768px) {
+        .grid-container {
+          width: 100%;
+          grid-template-columns: 1fr 1fr 1fr  ;
+        }}
+      
+      
+        
+     a{
+         color: darkslategray;
+         
+
+    }
+    .box img{
+        
+         width: 200px;
+         height: 200px;
+         
+
+       }
+       .home p {
+        text-align: center;
+        font-size: 16px;
+        color: rgb(1, 16, 33);
+    }
+    .box h2{
+        
+        
+        color:rgb(31, 82, 31);
+        font-size: 20px;
+    }
+   
